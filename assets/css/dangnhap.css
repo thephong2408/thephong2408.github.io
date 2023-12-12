@@ -1,0 +1,25 @@
+.auth-form__input{
+    border: 1px solid #afa9a9;
+    outline: none;
+}
+.auth-form__input:focus {
+    outline: 1px solid #afa9a9 ; /* Thay đổi màu và kích thước của viền khi focus */
+  }
+.auth-form__input.false{
+    border-color: rgb(245, 30, 10);
+}
+.auth-form__input.true{
+    border-color: rgb(36, 208, 17);
+}
+#nhapsai{
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+#nhapsaimk{
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
